@@ -30,7 +30,7 @@
       z-index: 1;
       height: 450px;
       width: 80px;
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0.5);
       bottom: 0;
       right: 60px;
     }
@@ -126,18 +126,125 @@
       width: 120px;
       z-index: 10;
     }
+
+    .left-ear--outer {
+      background: white;
+      border-radius: 90%;
+      width: 20px;
+      height: 50px;
+      position: absolute;
+      left: 10px;
+    }
+
+    .left-ear--inner {
+      background: pink;
+      border-radius: 90%;
+      width: 10px;
+      height: 50px;
+      position: absolute;
+      left: 15px;
+      top: 8px;
+    }
+
+    .right-ear--outer {
+      background: white;
+      border-radius: 90%;
+      width: 20px;
+      height: 50px;
+      position: absolute;
+      right: 10px;
+    }
+
+    .right-ear--inner {
+      background: pink;
+      border-radius: 90%;
+      width: 10px;
+      height: 50px;
+      position: absolute;
+      right: 15px;
+      top: 8px;
+    }
+
+    .head {
+      background: white;
+      border-radius: 50%;
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 30px;
+      width: 100%;
+      height: 80px;
+    }
+
+    .head__eye {
+      background: gray;
+      border-radius: 50%;
+      width: 4px;
+      height: 4px;
+      position: absolute;
+      top: 15px;
+    }
+
+    .head__eye--left {
+      left: 35px;
+    }
+
+    .head__eye--right {
+      right: 35px;
+    }
   </style>
 </head>
 
 <body>
   <div class="phone">
+    <!-- bunny 1 -->
     <div class="layer-1">
-    </div> <!-- bunny 1 -->
-    <div class="layer-2"></div> <!-- bunny 2 -->
-    <div class="layer-3"></div> <!-- wall 1 -->
-    <div class="layer-4"></div> <!-- bunny 3 -->
+      <div class="left-ear--outer"></div>
+      <div class="left-ear--inner"></div>
+      <div class="right-ear--outer"></div>
+      <div class="right-ear--inner"></div>
+      <div class="head">
+        <div class="head__eye head__eye--left"></div>
+        <div class="head__eye head__eye--right"></div>
+      </div>
+    </div>
+    <!-- bunny 2 -->
+    <div class="layer-2">
+      <div class="left-ear--outer"></div>
+      <div class="left-ear--inner"></div>
+      <div class="right-ear--outer"></div>
+      <div class="right-ear--inner"></div>
+      <div class="head">
+        <div class="head__eye head__eye--left"></div>
+        <div class="head__eye head__eye--right"></div>
+      </div>
+    </div>
+    <!-- wall 1 -->
+    <div class="layer-3"></div>
+    <!-- bunny 3 -->
+    <div class="layer-4">
+      <div class="left-ear--outer"></div>
+      <div class="left-ear--inner"></div>
+      <div class="right-ear--outer"></div>
+      <div class="right-ear--inner"></div>
+      <div class="head">
+        <div class="head__eye head__eye--left"></div>
+        <div class="head__eye head__eye--right"></div>
+      </div>
+    </div>
     <div class="layer-5"></div> <!-- wall 2 -->
-    <div class="layer-6"></div> <!-- bunny 4 -->
+    <!-- bunny 4 -->
+    <div class="layer-6">
+      <div class="left-ear--outer"></div>
+      <div class="left-ear--inner"></div>
+      <div class="right-ear--outer"></div>
+      <div class="right-ear--inner"></div>
+      <div class="head">
+        <div class="head__eye head__eye--left"></div>
+        <div class="head__eye head__eye--right"></div>
+      </div>
+    </div>
     <div class="layer-7"></div> <!-- wall 3 -->
     <div class="layer-8"></div> <!-- lawn 1 -->
     <div class="layer-9"></div> <!-- lawn 2 -->
